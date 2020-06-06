@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Product Page</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row col-md-6 col-md-offset-3">
+        <div class="panel panel-primary">
+          <div class="panel-heading text-center">
+            <h1>Product Form</h1>
+          </div>
+          <div class="panel-body">
+            <form action="ProductConnect.php" method="post">
+              <div class="form-group">
+                <label for="ProductName">Product Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="ProductName"
+                  name="ProductName"
+                />
+              </div>
+              <div class="form-group">
+                <label for="ProductCode">Product Code</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="ProductCode"
+                  name="ProductCode"
+                />
+              </div>
+              <div class="form-group">
+                <label for="Choose">Choose one</label>
+                <div>
+                  <label for="male" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="Choose"
+                      value="w"
+                      id="web"
+                    />Web</label
+                  >
+                  <label for="female" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="Choose"
+                      value="f"
+                      id="facebook"
+                    />Facebook Shop</label>
+                  
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="BuyingDate">Enter Buying Date</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="BuyingDate"
+                  name="BuyingDate"
+                />
+              </div>
+              <div class="form-group">
+                <label for="SellerName">Seller Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="SellerName"
+                  name="SellerName"
+                />
+              </div>
+              <div class="form-group">
+                <label for="BuyingQuantity">Buying Quantity</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="BuyingQuantity"
+                  name="BuyingQuantity"
+                />
+              </div>
+              <div class="form-group">
+                <label for="BuyingUnitPrice">Buying Unit Price</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="BuyingUnitPrice"
+                  name="BuyingUnitPrice"
+                />
+              </div>
+              <div class="form-group">
+                <label for="SellingUnitPrice">Selling Unit Price</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="SellingUnitPrice"
+                  name="SellingUnitPrice"
+                />
+              </div>
+              <input type="submit" class="btn btn-primary" />
+            </form>
+          </div>
+          <div class="panel-footer text-right">
+            <small>&copy; Rongonshop</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="toast-header">
+    
+    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+ 
+</div>
+  </body>
+</html>

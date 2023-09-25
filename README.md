@@ -1,5 +1,5 @@
 # Inventory-Management-System
-This is a contract project for an online business where sales of necessary things for kids. 
+This is a contract project for an online business where sales of necessary things for kids. As a beginner, I learned and implemented the project using raw technologies. 
 ## Tech Stack
 * Frontend: HTML, CSS
 * Backend: Raw PHP 

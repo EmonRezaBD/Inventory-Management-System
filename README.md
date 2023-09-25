@@ -1,4 +1,8 @@
 # Inventory-Management-System
-I build a system using HTML,CSS,PHP to handle any inventory shop. This will help a user to maintain his all calculations for the business. He can also easily track and maintain. 
-
-## Project is ongoing
+This is a contract project for an online business where sales of necessary things for kids. 
+## Tech Stack
+* Frontend: HTML, CSS
+* Backend: Raw PHP 
+* Database: MariaDB
+This is an inventory application. It will help a user to maintain his all calculations for the business from the backend. One can also easily track and maintain his sales, transactions, and count of remaining products. <br>
+**Project was not completed and halted.** 
